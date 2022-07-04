@@ -63,6 +63,11 @@
     z-index: 1;
     padding-top: 3rem;
   }
+  @media only screen and (max-width: 375px){
+    .dash-div{
+      margin-top: 0rem !important;
+    }
+  }
 }
 @media only screen 
   and (min-device-width: 768px) 

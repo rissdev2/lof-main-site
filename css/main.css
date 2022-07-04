@@ -411,6 +411,12 @@ button:focus {
   padding-right: 170px;
 }
 
+.plat-p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
 .owl-theme .owl-nav.disabled + .owl-dots {
   margin-right: 150px !important;
 }
@@ -421,7 +427,7 @@ button:focus {
     margin-left: 35px;
   }
 }
-.content-div {
+.content-pl {
   -ms-grid-column: 1;
       grid-column-start: 1;
   -ms-grid-column-span: 2;
@@ -471,6 +477,36 @@ button:focus {
 
   .owl-theme .owl-nav.disabled + .owl-dots {
     margin-right: 0px !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .content-pl {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 4;
+    grid-column-end: 5;
+    -ms-grid-row: 3;
+        grid-row-start: 3;
+    z-index: 2;
+    margin-top: 5rem !important;
+  }
+
+  .modal-pl {
+    margin-left: 0px;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 4;
+    grid-column-end: 5;
+    -ms-grid-row: 5;
+        grid-row-start: 5;
+    z-index: 1;
+    padding-top: 0rem;
+  }
+
+  .plat-p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -584,6 +620,11 @@ button:focus {
         grid-row-start: 3;
     z-index: 1;
     padding-top: 3rem;
+  }
+}
+@media only screen and (max-width: 600px) and (max-width: 375px) {
+  .dash-div {
+    margin-top: 0rem !important;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -1016,6 +1057,11 @@ button:focus {
     padding-top: 3rem;
   }
 }
+@media only screen and (max-width: 375px) {
+  .modal-wh {
+    padding-top: 1rem;
+  }
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .modal-wh {
     -ms-grid-column: 1;
@@ -1127,6 +1173,93 @@ button:focus {
   font-size: 18px;
 }
 
+.content-merch {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  z-index: 2;
+  margin-top: -3rem !important;
+}
+
+.modal-merch {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  -ms-grid-column-span: 3;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  z-index: 1;
+  padding-top: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-merch {
+    -ms-grid-column-span: 5 !important;
+    grid-column-end: 5 !important;
+    -ms-grid-row: 1 !important;
+        grid-row-start: 1 !important;
+  }
+
+  .modal-merch {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 4;
+    grid-column-end: 5;
+    -ms-grid-row: 3;
+        grid-row-start: 3;
+    z-index: 1;
+    padding-top: 3rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .content-merch {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 4;
+    grid-column-end: 5;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    z-index: 2;
+    margin-top: 10rem !important;
+  }
+
+  .modal-merch {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 4;
+    grid-column-end: 5;
+    -ms-grid-row: 3;
+        grid-row-start: 3;
+    z-index: 1;
+    padding-top: 3rem;
+  }
+
+  .mr-heading {
+    font-size: 45px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .content-merch {
+    -ms-grid-column-span: 5 !important;
+    grid-column-end: 5 !important;
+    -ms-grid-row: 1 !important;
+        grid-row-start: 1 !important;
+  }
+
+  .modal-merch {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 4;
+    grid-column-end: 5;
+    -ms-grid-row: 3;
+        grid-row-start: 3;
+    z-index: 1;
+    padding-top: 3rem;
+  }
+}
 .contct-txt h1 {
   font-style: normal;
   font-weight: 700;
@@ -1222,6 +1355,11 @@ button:focus {
     border-radius: 5px;
   }
 }
+@media only screen and (max-width: 375px) {
+  .contct-txt {
+    margin-top: 20rem;
+  }
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .field {
     width: 307px;
@@ -1281,6 +1419,11 @@ button:focus {
     font-family: "Hind Vadodara", sans-serif;
     padding: 8px;
     font-weight: 500;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .fotter-div {
+    margin-top: 30rem;
   }
 }
 /* Media querys end  */
