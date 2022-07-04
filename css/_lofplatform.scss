@@ -19,12 +19,13 @@
 .owl-theme .owl-nav.disabled + .owl-dots {
   margin-right: 150px !important;
 }
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1601px) {
   .pl-mar {
     max-width: 1700px !important;
     margin-left: 35px;
   }
 }
+
 
 .content-div {
   grid-column-start: 1;
@@ -96,4 +97,13 @@
       margin-right: 0px !important;
     }
 
+  }
+  @media only screen 
+  and (min-device-width: 1451px) 
+  and (max-device-width: 1600px){
+    .slider-div{
+      p{
+        padding-right:0px;
+      }
+    }
   }
