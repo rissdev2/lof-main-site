@@ -62,3 +62,12 @@
       margin-left: 100px;
     }
   }
+
+  @media only screen 
+and (min-device-width: 1451px) 
+and (max-device-width: 1600px){
+  .lof-bg {
+    margin-left: 70px;
+  }
+
+}

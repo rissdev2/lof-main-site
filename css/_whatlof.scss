@@ -59,3 +59,17 @@
       padding-right: 0px ;
     }
   }
+
+  @media only screen 
+  and (min-device-width: 1451px) 
+  and (max-device-width: 1600px){
+    .why-txt p {
+      color: #ffffff;
+      font-family: "Hind Vadodara";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      padding-right: 55px;
+    }
+  }

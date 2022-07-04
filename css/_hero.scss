@@ -46,9 +46,16 @@
   }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1601px) {
   .hero-mar {
     max-width: 1500px !important;
+  }
+}
+@media only screen 
+and (min-device-width: 1501px) 
+and (max-device-width: 1600px){
+  .hero-mar {
+    max-width: 1390px !important;
   }
 }
 
