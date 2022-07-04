@@ -13,3 +13,70 @@
 .sub-mr {
   font-size: 18px;
 }
+
+
+.content-merch {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  z-index: 2;
+  margin-top: -3rem !important;
+}
+.modal-merch {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  z-index: 1;
+  padding-top: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-merch {
+    grid-column-end: 5 !important;
+    grid-row-start: 1 !important;
+  }
+  .modal-merch {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    z-index: 1;
+    padding-top: 3rem;
+  }
+}
+@media only screen and (max-width: 375px){
+
+.content-merch {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  z-index: 2;
+  margin-top: 10rem !important;
+}
+.modal-merch {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  z-index: 1;
+  padding-top: 3rem;
+}
+.mr-heading {
+  font-size: 45px;
+}
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px){
+    .content-merch {
+      grid-column-end: 5 !important;
+      grid-row-start: 1 !important;
+    }
+    .modal-merch {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 3;
+      z-index: 1;
+      padding-top: 3rem;
+    } 
+  }
