@@ -1,0 +1,111 @@
+.contct-txt h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+  margin-top: 250px;
+}
+.contct-txt p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+}
+.contct-bg {
+  background-image: url(../assets/contct.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.field {
+  width: 497px;
+  height: 52px;
+  background-color: #0b0b0b;
+  color: #ffffff;
+  border: none !important;
+  padding: 12px;
+  border-radius: 5px;
+}
+.field:focus {
+  border: none !important;
+  outline: none !important;
+}
+.text-area {
+  background-color: #0b0b0b;
+  color: #ffffff;
+  border: none !important;
+  padding: 5px;
+  border-radius: 5px;
+}
+.text-area:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+.contact-btn {
+  font-family: allround-Font !important;
+  color: white;
+  font-size: 14px;
+  border-color: #d8aaf8;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 6px 42px;
+  &:hover {
+    color: white;
+    border-color: #d8aaf8;
+    background-color: #d8aaf8;
+  }
+}
+@media only screen and (max-width: 600px){
+  .contct-txt h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 0px;
+  }
+  .field {
+    width: 357px;
+    height: 52px;
+    background-color: #0b0b0b;
+    color: #ffffff;
+    border: none !important;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .field1 {
+    width: 357px;
+    height: 200px;
+    background-color: #0b0b0b;
+    color: #ffffff;
+    border: none !important;
+    padding: 12px;
+    border-radius: 5px;
+  }
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px){
+    .field {
+      width: 307px;
+      height: 52px;
+      background-color: #0b0b0b;
+      color: #ffffff;
+      border: none !important;
+      padding: 12px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .field1 {
+      width: 630px;
+      height: 200px;
+      background-color: #0b0b0b;
+      color: #ffffff;
+      border: none !important;
+      padding: 12px;
+      border-radius: 5px;
+    }
+  }

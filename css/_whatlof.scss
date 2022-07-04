@@ -1,0 +1,61 @@
+.why-txt {
+  padding-top: 6rem;
+}
+.why-txt h1 {
+  color: #ffffff;
+  font-family: "AllRoundGothicW01-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+}
+.why-txt p {
+  color: #ffffff;
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  padding-right: 145px;
+}
+.set-mr {
+  margin-left: -50px;
+  margin-top: 270px;
+}
+
+
+@media only screen and (max-width: 600px){
+
+  .why-txt p {
+    color: #ffffff;
+    font-family: "Hind Vadodara";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 0px;
+  }
+
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px){
+    .why-txt p {
+      color: #ffffff;
+      font-family: "Hind Vadodara";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      padding-right: 0px;
+    }
+  
+  }
+  @media only screen 
+  and (min-device-width: 1310px) 
+  and (max-device-width: 1450px){
+    .why-txt p{
+      padding-right: 0px ;
+    }
+  }

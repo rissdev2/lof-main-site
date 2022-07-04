@@ -1,0 +1,99 @@
+.slider-div {
+  h1 {
+    font-family: "Hind Vadodara" !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  p {
+    font-family: "Hind Vadodara";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    padding-right: 170px;
+  }
+}
+
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-right: 150px !important;
+}
+@media only screen and (min-width: 1400px) {
+  .pl-mar {
+    max-width: 1700px !important;
+    margin-left: 35px;
+  }
+}
+
+.content-div {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  z-index: 2;
+  margin-top: -3rem !important;
+}
+.modal-pl {
+  margin-left: 160px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  z-index: 1;
+  padding-top: 3rem;
+}
+
+@media only screen and (max-width: 600px){
+  .pl-heading{
+    font-size: 45px !important;
+  }
+  .modal-pl {
+    margin-left: 0px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    z-index: 1;
+    padding-top: 3rem;
+  }
+  .slider-div{
+    margin-left: 30px;
+    margin-top: 80px;
+    p{
+      padding-right: 0px;
+    }
+  }
+  .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-right: 0px !important;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px){
+    .modal-pl {
+      margin-left: 0px;
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 3;
+      z-index: 1;
+      padding-top: 3rem;
+    }
+    .slider-div{
+      margin-top: 80px;
+    }
+  }
+  @media only screen 
+  and (min-device-width: 1310px) 
+  and (max-device-width: 1450px){
+    .modal-pl{
+      margin-left: 230px;
+    }
+    .slider-div{
+      p{
+        padding-right: 0px;
+      }
+    }
+    .owl-theme .owl-nav.disabled + .owl-dots {
+      margin-right: 0px !important;
+    }
+
+  }

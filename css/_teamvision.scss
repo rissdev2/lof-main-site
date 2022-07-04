@@ -1,0 +1,64 @@
+.team-txt h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  color: #ffffff;
+}
+.team-txt p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #ffffff;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 30px;
+}
+.lof-bg {
+  background-image: url(../assets/team.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 170px;
+}
+@media only screen and (max-width: 600px){
+  .lof-bg {
+    background-image: url() !important;
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+  }
+  .team-txt p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 30px;
+  }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px){
+    .lof-bg {
+      background-image: url(../assets/team.png);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-left:60px;
+    }
+  }
+  @media only screen 
+  and (min-device-width: 1310px) 
+  and (max-device-width: 1450px){
+    .lof-bg {
+      background-image: url(../assets/team.png);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-left: 100px;
+    }
+  }

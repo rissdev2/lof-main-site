@@ -1,0 +1,41 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-family: "Hind Vadodara", sans-serif;
+  font-weight: 600;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #d8aaf8;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #d8aaf8;
+}
+.nav-link {
+  padding: 0.9rem 1.2rem;
+}
+.nav-btn {
+  font-family: allround-Font !important;
+  color: white;
+  border-color: #d8aaf8;
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 6px 22px;
+}
+.nav-btn:hover {
+  color: white;
+  border-color: #d8aaf8;
+  background-color: #d8aaf8;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+@media only screen 
+and (min-device-width: 1310px) 
+and (max-device-width: 1450px){
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
