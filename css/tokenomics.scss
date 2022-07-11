@@ -1,13 +1,13 @@
 .fillbar {
     position: relative;
     display: block;
-    width: 250px;
+    width: 100%;
     height: 8px;
-    border: 1px solid #45abc9;
+    border: 1px solid #ffffff;
     border-radius: 2px;
-    border-left-color: #3791bd;
-    border-right-color: #6af2fa;
-    background: linear-gradient(to right, #2a7bae 0%, #6af2fa 100%);
+    border-left-color: #D8AAF8;
+    border-right-color: #D8AAF8;
+    background: linear-gradient(to right, #D8AAF8 0%, #D8AAF8 100%);
     
     &:after {
       position: absolute;
@@ -21,3 +21,200 @@
       background: #1e222c;
     }
   }
+
+  
+/* feature */
+#faqs .qa-pairs dl {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-flow: column;
+}
+#faqs .qa-pairs dl > * {
+  font-family:"Hind Vadodara", sans-serif !important ;
+  font-size: 18px;
+  border-radius: 10px;
+}
+#faqs .qa-pairs dt {
+  background: #121016;
+  order: 1;
+  z-index: 1;
+  line-height: 1.4;
+  padding: 22px 24px 12px 24px;
+  font-family: allround-Font !important;;
+  font-size: 36px;
+}
+#faqs .qa-pairs .faq-toggle {
+  /*background: url(http://rephresh.colangelo-sm.com/img/plus-minus.png);*/
+  /*background-position: left top;*/
+  margin-right: 20px;
+  margin-top: 13px;
+  position: absolute;
+  line-height: 1em;
+  text-align: center;
+  color: #000000;
+  font-weight: 700;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  display: table;
+  cursor: pointer;
+}
+#faqs .qa-pairs .faq-toggle .circle {
+  top: 10px;
+  padding: 16px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  border: 3px solid #9c8dc3;
+  border-radius: 50%;
+  position: relative;
+  transform: rotate(0deg);
+  transform-origin: 50% 50%;
+  transition: transform 0.5s;
+}
+#faqs .qa-pairs .faq-toggle .minus, #faqs .qa-pairs .faq-toggle .plus {
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 4px;
+  background-color: #9c8dc3;
+  left: 44%;
+  margin-left: -5px;
+  top: 50%;
+  margin-top: -1px;
+}
+#faqs .qa-pairs .faq-toggle .plus {
+  position: absolute;
+  // width: 10px;
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  transition: width 0.5s;
+}
+#faqs .qa-pairs dd {
+  padding: 22px 24px 34px 24px;
+  margin-top: -10px;
+  order: 2;
+  background: #121016;
+}
+#faqs .qa-pairs dl.active .faq-toggle {
+  /*background-position: right top;*/
+}
+#faqs .qa-pairs dl.active .faq-toggle .circle {
+  transform: rotate(720deg);
+  transition: transform 0.5s;
+}
+#faqs .qa-pairs dl.active .faq-toggle .plus {
+  width: 0px;
+  transition: width transform 0.5s;
+}
+@media (max-width: 767px) {
+  #faqs .qa-pairs dl {
+    font-size: 1.2em;
+  }
+}
+// my own css
+.token-heading{
+  font-family: allround-Font !important;
+  font-size: 180px;
+  
+}
+.token-heading-2{
+  font-family: allround-Font !important;
+
+  
+}
+.token-heading-1{
+  font-family: allround-Font !important;
+font-size: 90px;
+  
+}
+.token-sub{
+  font-family: "Hind Vadodara", sans-serif !important;
+  color: #D8AAF8;
+  font-weight: bold;
+  font-size: 24px;
+}
+.token-body{
+  font-family: "Hind Vadodara", sans-serif !important;
+font-size: 18px;
+line-height: 36px;
+}
+.token-span{
+  color: #D8AAF8; margin-left: 60px;
+}
+.token-box{
+  background-color: #121016;
+  padding: 20px;
+ 
+}
+.token-bar-content{
+  padding: 20px;
+}
+.token-points{
+  padding: 80px;
+}
+
+.token-points>ul>li{
+font-size: 27px;
+padding: 20px;
+list-style-type: none;
+}
+.bullet-1::before {
+  content: "\2022";
+  color: #5146D1;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.bullet-2::before {
+  content: "\2022";
+  color: #089EF4;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.bullet-3::before {
+  content: "\2022";
+  color: #C056A6;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.bullet-4::before {
+  content: "\2022";
+  color: #089FF5;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.bullet-5::before {
+  content: "\2022";
+  color: #8300DE;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.bullet-6::before {
+  content: "\2022";
+  color: #5B50D3;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.bullet-7::before {
+  content: "\2022";
+  color: #C96DB3;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
