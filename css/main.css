@@ -544,6 +544,29 @@ button:focus {
     padding-right: 0px;
   }
 }
+.fillbar {
+  position: relative;
+  display: block;
+  width: 250px;
+  height: 8px;
+  border: 1px solid #45abc9;
+  border-radius: 2px;
+  border-left-color: #3791bd;
+  border-right-color: #6af2fa;
+  background: -webkit-gradient(linear, left top, right top, from(#2a7bae), to(#6af2fa));
+  background: linear-gradient(to right, #2a7bae 0%, #6af2fa 100%);
+}
+.fillbar:after {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  display: block;
+  content: "";
+  height: 8px;
+  width: 40%;
+  background: #1e222c;
+}
+
 .dashbord-txt h1 {
   color: #ffffff;
   font-style: normal;
@@ -1427,6 +1450,29 @@ button:focus {
   }
 }
 /* Media querys end  */
+.fillbar {
+  position: relative;
+  display: block;
+  width: 250px;
+  height: 8px;
+  border: 1px solid #45abc9;
+  border-radius: 2px;
+  border-left-color: #3791bd;
+  border-right-color: #6af2fa;
+  background: -webkit-gradient(linear, left top, right top, from(#2a7bae), to(#6af2fa));
+  background: linear-gradient(to right, #2a7bae 0%, #6af2fa 100%);
+}
+.fillbar:after {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  display: block;
+  content: "";
+  height: 8px;
+  width: 40%;
+  background: #1e222c;
+}
+
 .screen {
   width: 273px;
   margin: 50px -3px 0px 1px;
